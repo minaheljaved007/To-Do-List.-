@@ -30,7 +30,6 @@ def mock_supabase(monkeypatch):
     # st.cache_resource persists across AppTest runs within the same
     # process (it's a process-wide cache), so without clearing it here,
     # the TaskManager (and its in-memory fake data) from a previous test
-    # would leak into this one.
     import streamlit as st
     st.cache_resource.clear()
 
