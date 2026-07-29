@@ -1,7 +1,7 @@
 """
 app.py
 Streamlit UI for the To-Do List application.
-Run locally with: streamlit run app.py
+Run locally with: streamlit run app.py.
 """
 
 import streamlit as st
