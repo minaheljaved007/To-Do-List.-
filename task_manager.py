@@ -1,5 +1,5 @@
 """
-task_manager.py
+task_manager.py.
 Core business logic for the To-Do List app, backed by Supabase (Postgres).
 
 Same public interface as the local JSON version, so app.py does not need
